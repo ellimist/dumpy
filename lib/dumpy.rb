@@ -1,5 +1,30 @@
-require "dumpy/version"
+require 'dumpy/version'
 
 module Dumpy
-  # Your code goes here...
+  class Uploader
+  	require 'rest_client'
+	require 'json'
+	require 'clipboard'
+
+    def self.upload(filename)
+      	url = "http://9devs.com/upload.php"
+		download_link = "http://9devs.com/download.php?q="
+		begin 
+			current_dir = `pwd`
+			file = current_dir.strip + "/" + filename
+			
+			begin
+			  data = RestClient.post(url, :file => File.new(file))
+			rescue => e
+				e.response
+			end
+			
+			data = JSON.parse(data)
+			Clipboard.copy download_link+data[0]
+			puts "Your link was copied to your clipboard. Just paste it! \nThe download link will be valid for 3 days. \n:-) \n"
+		rescue => e
+			puts "Something's wrong."
+		end
+    end
+  end
 end

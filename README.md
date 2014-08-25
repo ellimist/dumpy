@@ -1,6 +1,6 @@
 # Dumpy
 
-TODO: Write a gem description
+Command line for easy file sharing from terminal
 
 ## Installation
 
@@ -18,11 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Run from terminal using the command:
+	$ dumpy your_file.txt
+2. A download link will be copied to your clipboard. Just paste it. 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/dumpy/fork )
+1. Fork it ( https://github.com/ellimist/dumpy/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
