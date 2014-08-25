@@ -18,8 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-1. Run from terminal using the command:
-	$ dumpy your_file.txt
+1. Run from terminal using the command:  
+
+	`$ dumpy your_file.txt`
+
 2. A download link will be copied to your clipboard. Just paste it. 
 
 ## Contributing
