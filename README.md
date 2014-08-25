@@ -1,6 +1,6 @@
 # Dumpy
 
-Command line for easy file sharing from terminal
+Easy file sharing straight from the command line
 
 ## Installation
 
