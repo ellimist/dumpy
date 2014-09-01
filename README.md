@@ -4,15 +4,7 @@ Easy file sharing straight from the command line
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'dumpy'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself using:
 
     $ gem install dumpy
 

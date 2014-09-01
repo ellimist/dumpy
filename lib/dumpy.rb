@@ -7,8 +7,8 @@ module Dumpy
 	require 'clipboard'
 
     def self.upload(filename)
-      	url = "http://9devs.com/upload.php"
-		download_link = "http://9devs.com/download.php?q="
+      	url = "http://dumpy.io/upload.php"
+		download_link = "http://dumpy.io/download.php?q="
 		begin 
 			current_dir = `pwd`
 			file = current_dir.strip + "/" + filename
