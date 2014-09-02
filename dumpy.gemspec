@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Adrian Bordinc"]
   spec.email         = ["adrian.bordinc@gmail.com"]
   spec.summary       = %q{Share a file from the terminal}
-  spec.homepage      = "http://github.com/ellimist/dumpy"
+  spec.homepage      = "http://dumpy.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
