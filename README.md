@@ -24,4 +24,4 @@ Install it yourself using:
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-![dumpy demo](/Users/adrian/Desktop/dumpy.gif "dumpy demo")
+![dumpy demo](http://dumpy.io/images/dumpy.gif "dumpy demo")
