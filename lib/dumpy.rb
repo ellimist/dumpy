@@ -8,7 +8,7 @@ module Dumpy
 
     def self.upload(filename)
       	url = "http://dumpy.io/upload.php"
-	download_link = "http://dumpy.io/download.php?q="
+	download_link = "http://dumpy.io/v/"
 	begin 
 		current_dir = `pwd`
 		file = current_dir.strip + "/" + filename
